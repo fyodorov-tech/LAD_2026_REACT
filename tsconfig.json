@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Версия JS, которую будет генерировать TypeScript
+    "module": "ESNext", // Используем современную систему ES-модулей
+    "moduleResolution": "Bundler", // Поиск импортов выполняется так же, как это делает Webpack
+    "jsx": "react-jsx", // Позволяет использовать JSX без импорта React в каждом файле
+    "strict": true, // Включает максимальную проверку типов
+    "esModuleInterop": true, // Упрощает импорт CommonJS-пакетов
+    "sourceMap": true, // Позволяет видеть исходный TypeScript-код в DevTools браузера
+    "skipLibCheck": true // Не проверяет типы внутри сторонних библиотек
+  },
+  "include": ["src"]
+}
